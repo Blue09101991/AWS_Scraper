@@ -1,0 +1,41 @@
+{
+  "name": "@scrapingant/amazon-proxy-scraper",
+  "version": "2.1.2",
+  "description": "Amazon products scraper by keyword with using ScrapingAnt API",
+  "main": "index.js",
+  "bin": {
+    "amazon-proxy-scraper": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "amazon",
+    "scraper",
+    "datamining",
+    "prices",
+    "scrapingant",
+    "proxy",
+    "proxies"
+  ],
+  "author": "ScrapingAnt",
+  "license": "MIT",
+  "dependencies": {
+    "@scrapingant/scrapingant-client": "0.1.0",
+    "cheerio": "^1.0.0-rc.11",
+    "cli-progress": "^3.9.0",
+    "json2csv": "^5.0.6",
+    "json2xls": "^0.1.2",
+    "promise-retry": "^2.0.1",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScrapingAnt/amazon_scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ScrapingAnt/amazon_scraper/issues"
+  },
+  "homepage": "https://github.com/ScrapingAnt/amazon_scraper#readme"
+}
